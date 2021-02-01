@@ -1,0 +1,5 @@
+//il pulsante è non visibile per default
+//attraverso script.js diventera visbile se Notifiche è supportato dal browser
+.notifiche {
+    display: none;
+}

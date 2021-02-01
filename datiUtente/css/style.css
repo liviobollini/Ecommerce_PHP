@@ -1,0 +1,83 @@
+/*
+html,body { 
+	height: 100%; 
+}
+*/
+
+.global-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    padding-top: 10px;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.card-title {
+    font-weight: 300;
+}
+
+.btn {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.login-form {
+    width: 330px;
+    margin: 20px;
+}
+
+.sign-up {
+    text-align: center;
+    padding: 20px 0 0;
+}
+
+.alert {
+    margin-bottom: -30px;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.messaggio {
+    text-align: center;
+    font-size: 15px;
+    color: darkgray;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+    margin-top: 10px;
+}
+
+.bck {
+    border: 1px solid gray;
+    padding: 5px;
+    background-color: lightgray;
+    text-shadow: 1p 1px 1px rgb(244, 240, 240);
+    ;
+    width: 60%;
+    color: rgb(74, 72, 72);
+}
+
+#conta_prodotti {
+    padding: 5px 9px;
+    background-color: orange;
+    border-radius: 50%;
+}
+
+.pagination>a {
+    background-color: green;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.pagination>b {
+    background-color: gray;
+    color: white;
+    padding: 5px 11px;
+    border-radius: 50%;
+    font-size: 15px;
+}

@@ -1,0 +1,48 @@
+User-agent:  * # a tutti i crawl  !
+Disallow: /Class/ # No  scan the Class directory.
+Disallow: /css/ 
+Disallow: /amministrazione/ 
+Disallow: /datiUtente/ 
+Disallow: /fonts/ 
+Disallow: /ipn/ 
+Disallow: /js/ 
+Disallow: /mail/ 
+Disallow: /recuperaPsw/ 
+Disallow: /signup/
+Disallow: /SUPPORTO/ 
+
+
+User-agent: *
+Disallow: /404.php
+Disallow: /cerca.php
+Disallow: /config.php
+Disallow: /footer.php
+Disallow: /pagamenti.php
+Disallow: /header.php
+
+
+#Sitemap: http://www.example.com/sitemap.xml
+
+#blocco dei motori di ricerca
+
+# MOTORI DI RICERCA GIAPPONESI
+User-agent: moget
+User-agent: ichiro
+Disallow: /
+
+# MOTORI DI RICERCA COREANI
+User-agent: NaverBot
+User-agent: Yeti
+Disallow: /
+
+# MOTORI DI RICERCA CINESI
+User-agent: Baiduspider
+User-agent: Baiduspider-video
+User-agent: Baiduspider-image
+User-agent: sogou spider
+User-agent: YoudaoBot
+Disallow: /
+
+# MOTORI DI RICERCA RUSSI
+User-agent: Yandex
+Disallow: /
